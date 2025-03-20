@@ -1,0 +1,15 @@
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\bin\Debug\net7.0\Sistema_Bancarioo.exe
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\bin\Debug\net7.0\Sistema_Bancarioo.deps.json
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\bin\Debug\net7.0\Sistema_Bancarioo.runtimeconfig.json
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\bin\Debug\net7.0\Sistema_Bancarioo.dll
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\bin\Debug\net7.0\Sistema_Bancarioo.pdb
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\Sistema_Bancarioo.csproj.AssemblyReference.cache
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\Sistema_Bancarioo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\Sistema_Bancarioo.AssemblyInfoInputs.cache
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\Sistema_Bancarioo.AssemblyInfo.cs
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\Sistema_Bancarioo.csproj.CoreCompileInputs.cache
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\Sistema_Bancarioo.dll
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\refint\Sistema_Bancarioo.dll
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\Sistema_Bancarioo.pdb
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\Sistema_Bancarioo.genruntimeconfig.cache
+C:\Users\gabrieli.bergmann\source\repos\Sistema_Bancarioo\Sistema_Bancarioo\obj\Debug\net7.0\ref\Sistema_Bancarioo.dll
