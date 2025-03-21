@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.Design;
+using System.Drawing;
 using System.Net.WebSockets;
 
 namespace Sistema_Bancarioo
@@ -68,31 +69,33 @@ namespace Sistema_Bancarioo
 
         public void Deposito(double valor)
         {
-            if (valor > 0)
+            if (this is Contapoupança)
             {
                 saldo += valor * (1 + bonus/100);
                 Console.WriteLine($"Depósito de {valor} finalizado!");
 
             }
-            else
+            else if (this is Contacorrente)
             {
-                Console.WriteLine("Depósito invalido");
+                saldo += valor;
+                Console.WriteLine("Depósito Finalizado!");
             }
         }
 
         public  void Saque(double valor)
         {
-            Console.WriteLine("Qual valor do saque?");
-            valor = double.Parse(Console.ReadLine());
+           
+            
             if (this is Contacorrente)
             {
-                saldo -= valor;
+                saldo -= ( taxafixa + valor);
                 Console.WriteLine("Saque finalizado!");
 
 
             }
             else if (this is Contapoupança)
             {
+                saldo -= valor;
                 Console.WriteLine("Saque finalizado!");
             }
             
@@ -100,6 +103,7 @@ namespace Sistema_Bancarioo
 
         public void Exibirsaldo()
         {
+            
             Console.WriteLine($"O saldo é de: {saldo}");
         }
     }

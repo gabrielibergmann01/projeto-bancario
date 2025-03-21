@@ -39,25 +39,24 @@ namespace Sistema_Bancarioo
                 int opcao = int.Parse(Console.ReadLine());
 
                 switch (opcao)
-            {
+                {
                 case 1:
-                    
-                    contanova.Saque();
+                    Console.WriteLine("Digite o valor que deseja depositar:");
+                    double deposito = double.Parse(Console.ReadLine());
+                    contanova.Saque(deposito);
+                    Console.WriteLine("Depósito finalizado!");
                     break;
-            }
+                    case 2:
+                    Console.WriteLine("Digite o valor que deseja sacar:");
+                    double saque = double.Parse(Console.ReadLine());
+                    contanova.Saque(saque);
+                    Console.WriteLine("Saque Finalizado!");
+                    break;
+                }
+
+                    contanova.Exibirsaldo();
 
 
-
-            /*Contacorrente cc = new Contacorrente(12345678911, "Gabrieli", 5528.80);
-                cc.Deposito(600);
-                cc.Saque(200);
-                cc.Exibirsaldo();
-
-            Contapoupança cp = new Contapoupança(32543546, "Gabriel", 1000);
-                cp.Deposito(1000);
-                cp.Saque(450.25);
-                cp.Exibirsaldo();
-            */
         }
         }
 }
